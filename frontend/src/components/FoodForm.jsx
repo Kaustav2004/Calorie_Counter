@@ -39,7 +39,7 @@ const handleImageChange = async (e) => {
   // ✅ Upload to Cloudinary
   try {
     const url = await uploadToCloudinary(file);
-    console.log('Uploaded image URL:', url);
+    // console.log('Uploaded image URL:', url);
     setImage(url); // Save Cloudinary URL for form submit
   } catch (err) {
     console.error('Cloudinary upload failed', err);

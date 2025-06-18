@@ -21,10 +21,10 @@ export const analyzeFood = async (formData) => {
     data.imageUrl = '';
   }
 
-  console.log("Sending to backend as JSON:", data);
+  // console.log("Sending to backend as JSON:", data);
 
   const response = await api.post('/calorie/analyze', data); // Sends as JSON
-  console.log("Response from backend:", response.data.data);
+  // console.log("Response from backend:", response.data.data);/
   return response.data;
 };
 
