@@ -57,7 +57,7 @@ const handleSubmit = async (formData) => {
   };
 
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative min-h-screen ">
       <AnimatedBackground />
       <div className="relative z-10 max-w-4xl mx-auto px-4 py-8">
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-xl overflow-hidden transition-all duration-300">
